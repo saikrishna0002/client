@@ -7,6 +7,8 @@ interface Faculty {
     FacultyEmail: string;
     FacultyDepartment: string;
     FacultyDOB: string;
+    FacultyDateOfJoining: string;
+
     FacultyAddress: string;
     Classes: {
         Department: string;

@@ -9,6 +9,7 @@ import AdminAssignTimeTable from './screens/admin/AdminAssignTimeTable';
 import SideBar from './screens/SideBar';
 import LoginScreen from './screens/LoginScreen';
 import DevOptions from './screens/admin/DevOptions';
+import EditUserNamePassword from './screens/EditUserNamePassword';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path='/app/mark_attendance' element={<MarkAttendance />} />
           <Route path='/app/substitute' element={<Substitute />} />
           <Route path='/app/timeTable' element={<TimeTable />} />
+          <Route path='/app/editDetails' element={<EditUserNamePassword />} />
+
 
           <Route path='/app/admin'>
             <Route path='/app/admin/manage_faculty' element={<AdminManageFaculty />} />

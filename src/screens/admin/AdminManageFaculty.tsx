@@ -289,7 +289,8 @@ const AdminManageFaculty: React.FC = () => {
                   <p><span className='text-lg font-semibold py-1'>Faculty Designation :</span> <span>{filteredFaculty[selectedIndex].FacultyDesignation}</span></p>
                   <p><span className='text-lg font-semibold py-1'>Faculty Address :</span> <span>{filteredFaculty[selectedIndex].FacultyAddress}</span></p>
                   <p><span className='text-lg font-semibold py-1'>Faculty Name :</span> <span>{filteredFaculty[selectedIndex].FacultyName}</span></p>
-
+                  <p><span className='text-lg font-semibold py-1'>Faculty Date Of Joining :</span> <span>{filteredFaculty[selectedIndex].FacultyDateOfJoining}</span></p>
+                  
  
                   <h2 className='my-2 text-lg font-semibold'>Classes : </h2>
                   {
