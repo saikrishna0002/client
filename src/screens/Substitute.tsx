@@ -116,6 +116,8 @@ const Substitute:React.FC = () => {
       );
       if (response.status === 200) {
         setSubstitutes(response.data);
+        console.log(response.data);
+        
       } else {
         setError('Something went wrong');
       }

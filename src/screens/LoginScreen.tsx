@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/cmr-logo.png';
+import logo from '../assets/cmr-logo.jpg';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import axios from 'axios';

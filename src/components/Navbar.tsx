@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { AppDispatch} from '../redux/PersistanceStorage';
 import { toggleDrawer } from '../redux/DrawerSlice';
 import MenuIcon from '@mui/icons-material/Menu';
-import logo from '../assets/cmr-logo.png';
+import logo from '../assets/cmr-logo.jpg';
 
 const Navbar:React.FC = () => {
     const dispatch: AppDispatch = useDispatch();
